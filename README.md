@@ -1,7 +1,7 @@
 # udacityintrotoprogramming
-udacity nanodegree intro to programming rep
 
-Useful links: 
+Useful links from project reviews: 
+
 This page has some more information about why heading elements are important:
 https://www.w3.org/WAI/eval/preliminary.html#headings
 
