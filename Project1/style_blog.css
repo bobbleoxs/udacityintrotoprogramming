@@ -1,0 +1,70 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* Reset (credit: http://meyerweb.com/eric/tools/css/reset/)
+================================================== */
+
+.headline {
+    font-family: "Helvetica", san-serif;
+    line-height: 1em;
+    color: #58595B;
+    font-size: 20px;
+}
+
+header {
+       text-align: center;
+}
+
+h2:after {
+    content:' ';
+    display:block;
+    border:2px solid #d0d0d0;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+
+.box1 {
+    width: 700px;
+    float:left;
+    margin: 5px;
+    padding: 5px;    
+    vertical-align:top;
+    }
+
+h3 {
+    line-height: normal;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-family:  "Helvetica", sans-serif;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-align:center;
+    }
+
+hr {
+    color: lightgrey;
+}
+
+h4 {
+    line-height: normal;
+    color: #5e5e5e;
+    font: 1em "Helvetica", sans-serif;
+    text-align:left;
+    }
+
+p {
+    line-height: normal;
+    color: #5e5e5e;
+    font:1em "Helvetica", sans-serif;
+    }
+
+img{
+    float:right;
+    padding-right: 15px;
+}
