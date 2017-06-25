@@ -1,0 +1,142 @@
+html {
+     background: url(homepagefinal.png) no-repeat center center fixed;
+     background-size: cover;
+}
+
+
+body,
+div,
+img,
+li,
+ul {
+		margin: 5px;
+		padding: 5px;
+	  font-size: 100%;
+		vertical-align: baseline;
+}
+
+
+  .headline {
+      font-family: helvetica san-serif;
+      line-height: 1em;
+      color: #58595b;
+      font-size: 20px;
+  }
+
+
+header {
+       text-align: center;
+}
+
+
+h1:after {
+    content:' ';
+    display: block;
+    border: 2px solid #d0d0d0;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+
+h1 {
+	  line-height: normal;
+    color: white;
+    font: 2.8em Open Sans Light sans-serif;
+    padding-left: 50px;
+}
+
+
+li a {
+    line-height: normal;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    font: 1.65em Raleway sans-serif;
+    text-decoration: none;
+}
+
+
+li {
+    float: right;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+li a:hover {
+        background-color: #5e5e5e;
+}
+
+
+  #wrapper {
+      max-width: 100%;
+      max-height: 100%;
+      overflow: hidden;
+  }
+
+
+  .box1 {
+        width: 700px;
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        vertical-align: top;
+  }
+
+
+  .box2 {
+        flex: 1;
+        float: right;
+        margin-top: 20px;
+        padding: 5px;
+        vertical-align: top;
+        border-radius: 2px;
+        border-color: lightgrey;
+        border: 2px solid #d0d0d0;
+  }
+
+
+  .container {
+        display: inline-block;
+        padding: 5px;
+        margin: 2px;
+  }
+
+
+h2 {
+    line-height: normal;
+    color: #5e5e5e;
+    font: 1.5em helvetica sans-serif;
+    padding: 5px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+    line-height: normal;
+    color: #5e5e5e;
+    font: 1em helvetica sans-serif;
+    padding: 5px;
+}
+
+
+hr {
+    color: lightgrey;
+}
+
+
+img {
+    float: right;
+    padding-right: 15px;
+}
