@@ -6,3 +6,57 @@ def say_hello(name):
 
 print say_hello("Miriam")
 
+!!!so you always print out what defined
+!!!if there's no return, there's no value in your function!
+
+    ~   ~   ~
+string.find("x", n) - find the location of a particular phrase x in a string, n is to find x after location n
+string.replace(s,"old","new",n) - n is the maximum number you want to replace
+
+find is a function, what inside are 'input', operands, or arguments 
+
+
+Funcitons is something you can define once and use it repeatedly 
+
+    ~   ~   ~
+global variable sits outside the function, and can be used everywhere - SHOULD BE AVOIDED!
+local variable sits inside the function, and can only be used once after calling the function. 
+
+a= 6 - global variable
+
+def sum(a,b):
+    a = a+b - local variable
+    return a
+    print a - this line will never be read as it is after return argument which ends the function. 
+sum()
+print a - this will produce an erro as local variable is finished after function and now it does not have a value hence can't print. unless you have a global variable.
+
+    ~   ~   ~
+mutable variables - list and dictionaries, if you alter the list, the list itself is changed, the id is not changed, it is muted. 
+immutable variables -strings, int, floats (aint containers), if you change it is changing the id of the variable. it is not mutable  
+
+Different ways of programming - 
+
+1) 
+def square(n):
+    return n*n
+print square(5)
+
+2) 
+def square(n):
+    return n*n
+x = 37
+y = square(x)
+print square(y)
+
+3) 
+def square(n):
+    retunr n*n
+x = 37
+print square(square(x)) - procedural composition, use existing procedure in current procedure
+
+
+    
+
+    
+    
