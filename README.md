@@ -1,5 +1,10 @@
 # udacityintrotoprogramming
 
+Project 1 - make a website (completetel) 
+
+Project 2 - code you own quiz (submitted) 
+
+
 Useful links from project reviews: 
 
 This page has some more information about why heading elements are important:
